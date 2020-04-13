@@ -6,7 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Teacher.create(name: "山田")
+10.times do
+    Teacher.create(
+        name: Gimei.name.kanji
+    )
+end
+
 Subject.create(
     teacher_id: 1,
     title: "統計",
