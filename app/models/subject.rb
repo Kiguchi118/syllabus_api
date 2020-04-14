@@ -1,6 +1,6 @@
 class Subject < ApplicationRecord
     belongs_to :teacher
-    has_many :lectures, ->{order(:date) }, dependent: :destroy
+    has_many :lectures, ->{order(:date)}, dependent: :destroy
 
     enum weekday: {
         sunday: 0,
