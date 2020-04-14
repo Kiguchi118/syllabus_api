@@ -2,9 +2,9 @@
 ***
 授業名と教師名で検索(部分一致)できる．
 
-'http://localhost:3000/api/v1/lectures?teacher_name=山田&keyword=統計'
+`http://localhost:3000/api/v1/lectures?teacher_name=山田&keyword=統計`
 
-'''
+```
 [
   {
     id: 1,
@@ -29,4 +29,4 @@
     ]
   }
 ]
-'''
+```
